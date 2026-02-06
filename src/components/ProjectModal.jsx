@@ -1,6 +1,15 @@
 import React, { useState } from 'react';
 import PdfViewerModal from './PdfViewerModal';
 
+const getAssetUrl = (url) => {
+    if (!url) return '';
+    if (url.startsWith('http://') || url.startsWith('https://')) {
+        return url;
+    }
+    const cleanUrl = url.startsWith('/') ? url.slice(1) : url;
+    return `${import.meta.env.BASE_URL}${cleanUrl}`;
+};
+
 const ProjectModal = ({ project, onClose }) => {
     const [previewPdf, setPreviewPdf] = useState(null);
 
@@ -183,12 +192,12 @@ const ProjectModal = ({ project, onClose }) => {
                         }}>
                             {project.pdf && project.pdf !== "#" && (
                                 <a
-                                    href={project.pdf}
+                                    href={getAssetUrl(project.pdf)}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="btn btn-outline"
                                     style={{ justifyContent: 'center', width: '100%', background: 'white' }}
-                                    onClick={(e) => handlePdfClick(e, project.pdf, "Présentation PDF")}
+                                    onClick={(e) => handlePdfClick(e, getAssetUrl(project.pdf), "Présentation PDF")}
                                 >
                                     📄 Présentation PDF
                                 </a>
@@ -202,7 +211,7 @@ const ProjectModal = ({ project, onClose }) => {
                             {project.additionalLinks && project.additionalLinks.map((link, index) => (
                                 <a
                                     key={index}
-                                    href={link.url}
+                                    href={getAssetUrl(link.url)}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="btn btn-outline"
@@ -213,7 +222,7 @@ const ProjectModal = ({ project, onClose }) => {
                                         color: 'var(--primary)',
                                         background: 'white'
                                     }}
-                                    onClick={(e) => handlePdfClick(e, link.url, link.label)}
+                                    onClick={(e) => handlePdfClick(e, getAssetUrl(link.url), link.label)}
                                 >
                                     🔗 {link.label}
                                 </a>
