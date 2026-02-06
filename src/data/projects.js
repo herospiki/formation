@@ -31,7 +31,7 @@ export const projects = [
   {
     id: 2,
     title: "Analyses d'indicateurs RH",
-    category: ["Data Cleaning", "Analyse exploratoire", "Visualisation"],
+    category: ["RGPD", "RH", "Data Cleaning", "Analyse exploratoire", "Visualisation"],
     description: "Analyse des indicateurs RH pour améliorer la gestion des ressources humaines",
     image: projet2,
     tools: ["ETL Knime", "Python"],
@@ -183,7 +183,6 @@ export const projects = [
     description: "Réalisation d'une première étude de faisabilité d'un moteur de classification d'articles, basé sur une image et une description",
     image: projet10,
     tools: ["Python", "Pandas", "Scikit-Learn", "TensorFlow", "Keras", "OpenCV", "NLTK", "spaCy", "Plotly"],
-    data: "https://www.kaggle.com/c/data",
     pdf: "/docs/projet-10/Piekarec_Sophie_6_presentation_0922022.pdf",
 
     skills: [

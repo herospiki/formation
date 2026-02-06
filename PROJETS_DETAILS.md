@@ -20,7 +20,7 @@ Veuillez remplir ce fichier pour chacun de vos 10 projets. Une fois terminé et 
 
 ---
 ## Projet 2 : Analyses d'indicateurs RH
-- **Catégorie** : Data Cleaning, Analyse exploratoire, Visualisation
+- **Catégorie** : RGPD, RH, Data Cleaning, Analyse exploratoire, Visualisation
 - **Outils** : ETL Knime, Python
 - **Données** : Données RH internes fictives
 - **Lien Présentation (PDF)** : public\docs\projet-2\Soutenance_P7.pdf
@@ -48,13 +48,13 @@ Veuillez remplir ce fichier pour chacun de vos 10 projets. Une fois terminé et 
 ## Projet 4 : Etude de santé publique
 - **Catégorie** : Data Cleaning, Analyse exploratoire, Visualisation
 - **Outils** : Python, Pandas, Plotly
--**Données** : FAO (https://www.fao.org/faostat/en/#data) 
+- **Données** : FAO (https://www.fao.org/faostat/en/#data) 
 - **Lien Présentation (PDF)** : public\docs\projet-4\P4_Piekarec_Soutenance_sans_annexe.pdf
 - **Description** : Établissement d’un panorama de l’état de la malnutrition dans le monde pour l’année 2017, en répondant à diverses questions.
 - **Compétences** : 
 - Créer un environnement de développement
-Manipuler des DataFrames
-Utiliser des librairies spécialisées pour les traitements data
+- Manipuler des DataFrames
+- Utiliser des librairies spécialisées pour les traitements data
 
 
 ---
@@ -123,7 +123,7 @@ Utiliser des librairies spécialisées pour les traitements data
 - **Données** : Home Credit : https://www.kaggle.com/c/home-credit-default-risk/data
 - **Lien Présentation (PDF)** : public\docs\projet-9\Implémentation_d_un_modele_de_scoring.pdf
 - **Note méthodologique (PDF)** : public\docs\projet-9\Piekarec_Sophie_3_note_méthodologique_112022.pdf
-- **Déploiement (PDF)** : public\\docs\\projet-9\\Piekarec_Sophie_3_dashboard_112022.pdf
+- **Déploiement (PDF)** : public\docs\projet-9\Piekarec_Sophie_3_dashboard_112022.pdf
 - **Lien GitHub** :https://github.com/herospiki/OC
 - **Description** : Développement d'un modèle de scoring bancaire pour évaluer la solvabilité des clients.
 - **Compétences** : 
@@ -142,7 +142,7 @@ Utiliser des librairies spécialisées pour les traitements data
 
 ## Projet 10 : Classification automatique de biens de consommation
 - **Catégorie** : Data Cleaning, Analyse exploratoire, Feature Engineering, Apprentissage supervisé, NLP, Deep Learning
-- **Outils** : Python, Pandas, Scikit-Learn, TensorFlow, Keras, OpenCV, NLTK, spaCy,Plotly
+- **Outils** : Python, Pandas, Scikit-Learn, TensorFlow, Keras, OpenCV, NLTK, spaCy, Plotly
 - **Lien Présentation (PDF)** : public\docs\projet-10\Piekarec_Sophie_6_presentation_0922022.pdf
 - **Description** : Réalisation d’une première étude de faisabilité d'un moteur de classification d'articles, basé sur une image et une description
 - **Compétences** : 

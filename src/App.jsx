@@ -15,7 +15,7 @@ function App() {
 
       <footer style={{ padding: '3rem 0', borderTop: '1px solid var(--border)', textAlign: 'center', color: 'var(--text-dim)', fontSize: '0.9rem' }}>
         <div className="container">
-          &copy; 2026 Portfolio Data Science. Conçu avec passion.
+          &copy; 2026 Portfolio Data Science.
         </div>
       </footer>
     </div>
